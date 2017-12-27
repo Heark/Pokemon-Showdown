@@ -4,8 +4,8 @@
 exports.port = process.env.PORT;
 
 // The server address - the address at which Pokemon Showdown should be hosting
-//   This should be kept set to 0.0.0.0 unless you know what you're doing.
-exports.bindaddress = 'showdowntesting.herokuapp.com';
+//   This should be kept set to  unless you know what you're doing.
+exports.bindaddress = '0.0.0.0';
 
 // workers - the number of networking child processes to spawn
 //   This should be no greater than the number of threads available on your
